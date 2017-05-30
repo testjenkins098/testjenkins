@@ -4,6 +4,9 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+		sh '''
+		    mkdir /home/autosrv/jenkins_created
+		   '''
             }
         }
     }
