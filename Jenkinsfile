@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mkdir c:\testjenkins'
+                sh 'python --version'
             }
         }
     }
